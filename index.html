@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="main.js"></script>
+    <title>JavaScript</title>
+</head>
+<body onload="load()">
+        <h1>Introdução JavaScript</h1>
+        <br><br><br><br>
+        <button type="button" onclick="clicou()">Clique aqui </button>
+        <p id="agradecimento"></p>
+        <br><br><br>
+        <button type="button" onclick="redirecionar()">GitHub</button>
+
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+
+</body>
+</html>
